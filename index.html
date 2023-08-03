@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mira este video y aprende a ganar dinero con soluciones digitales</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/flag.png">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <section class="section-hero">
+            <div class="container">
+                <div class="header flex justify-between">
+                    <img src="assets/img/logo.png" alt="logo" class="logo-img">
+                    <div class="header-promo flex">
+                        <img src="assets/img/flag.png" alt="flag" class="header-promo-img">
+                        <p class="header-promo-text">
+                            Oferta exclusiva para peruanos
+                        </p>
+                    </div>
+                </div>
+                <div class="hero-content flex justify-between align-start">
+                    <div class="hero-content__video-wrapper">
+                        <h1 class="main-heading">
+                            Mira este video y aprende a <span class="text-yellow">ganar dinero con soluciones digitales</span>
+                        </h1>
+                        <div class="video-wrapper video">
+                            <video width="100%" playsinline controls controlsList="nodownload" poster="assets/video/poster.png"></video>
+                            <div class="play-btn"></div>
+                        </div>
+                    </div>
+                    <div class="hero-content__form-wrapper form">
+                        <h3 class="form-heading">
+                            Regístrate <br>
+                            <span class="text-yellow">Quedan solo <span id="randomInteger">8</span> plazas</span> 
+                        </h3>
+                        <form action="thankyou.html" class="form" onsubmit="event.preventDefault(); formSubmission()">
+                            <div class="input-wrap">
+                                <input type="text" class="form-input name" placeholder="Your Name">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input lastname" placeholder="Your Lastname">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input email" placeholder="Your Email">
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text" class="form-input phone" placeholder="Your Phone">
+                            </div>
+                            <div class="required-fields">
+                                Please fill in all the fields
+                            </div>
+                            <div class="input-wrap">
+                                <button class="btn alert-btn">Consigue acceso VIP</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about">
+            <div class="container">
+                <h2 class="section__heading animated">
+                    Sistemacuántico platforma 📋
+                </h2>
+                <div class="about-content flex justify-between animated">
+                    <div class="about-content-text animated">
+                        <h3>Banco de Crédito del Perú ofrece un método  inteligente de ganar dinero 💰</h3>
+                        <p class="section__text">
+                            Impulsado por la crisis financiera que azota al mundo, Banco de Crédito del Perú  ha lanzado un nuevo proyecto <strong>que promete ayudar a las familias a mejorar su bienestar económico</strong>. Es más conocido en Perú como el Sistema Cuántico. Estas nuevas tecnologías de última generación aceleran la adopción de canales digitales para generar ingresos pasivos. Perú tiene todas las posibilidades de convertirse en el país más rico de Sudamérica.<br>
+                            <strong>Incluso si no tienes buena mano para las tecnologías, no pierdas esta oportunidad de ganar dinero con las soluciones digitales en Internet. ¡Esto no durará para siempre!</strong>
+                        </p>
+                        <button class="btn" onclick="scrollToForm()">Elige una oferta</button>
+                    </div>
+                    <div class="about-content-img animated"></div>
+                </div>
+            </div>
+            <img src="assets/img/decor-001.png" alt="decor" class="about-decor left">
+            <img src="assets/img/decor-002.png" alt="decor" class="about-decor right">
+        </section>
+        <section class="section-offers">
+            <div class="container">
+                <h2 class="section__heading animated">
+                    ¡Ahora los recursos mundiales están en tus manos! 💪
+                </h2>
+                <div class="offers-cards-wrapper flex justify-between">
+                    <div class="offer-card animated">
+                        <div class="offer-card-img-wrapper">
+                            <img src="assets/img/offer-001.png" alt="offer" class="offer-card-img">
+                            <div class="offer-tag">
+                                OFERTA CALIENTE 🔥
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-heading">Petroperú</h3>
+                            <p class="card-text">
+                                Empresa estatal peruana dedicada a la refinación y comercialización de combustibles y otros petrolíferos.
+                            </p>
+                            <p class="card-benefit">
+                                Lucro: <span class="text-yellow">+<span class="counter" data-to="18" data-stop="0">0</span>%</span> en el último mes
+                            </p>
+                            <button class="btn" onclick="scrollToForm()">Regístrate ahora</button>
+                        </div>
+                    </div>
+                    <div class="offer-card animated">
+                        <div class="offer-card-img-wrapper">
+                            <img src="assets/img/offer-002.png" alt="offer" class="offer-card-img">
+                            <div class="offer-tag">
+                                OFERTA CALIENTE 🔥
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-heading">Gold Fields Peru</h3>
+                            <p class="card-text">
+                                La mina Cerro Corona en Perú se encuentra en la parte más alta de la Cordillera occidental de la Cordillera de los Andes.
+                            </p>
+                            <p class="card-benefit">
+                                Lucro: <span class="text-yellow">+<span class="counter" data-to="24" data-stop="0">0</span>%</span> en el último mes
+                            </p>
+                            <button class="btn" onclick="scrollToForm()">Regístrate ahora</button>
+                        </div>
+                    </div>
+                    <div class="offer-card animated">
+                        <div class="offer-card-img-wrapper">
+                            <img src="assets/img/offer-003.png" alt="offer" class="offer-card-img">
+                            <div class="offer-tag">
+                                OFERTA CALIENTE 🔥
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-heading">Rainforest Expeditions</h3>
+                            <p class="card-text">
+                                Rainforest Expeditions es una empresa de ecoturismo que administra tres albergues en la selva tropical de Tambopata.
+                            </p>
+                            <p class="card-benefit">
+                                Lucro: <span class="text-yellow">+<span class="counter" data-to="21" data-stop="0">0</span>%</span> en el último mes
+                            </p>
+                            <button class="btn" onclick="scrollToForm()">Regístrate ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/decor-003.png" alt="decor" class="offers-decor left">
+            <img src="assets/img/decor-004.png" alt="decor" class="offers-decor right">
+        </section>
+        <section class="section-steps">
+            <div class="container">
+                <h2 class="section__heading animated">
+                    ¿cómo funciona? ⚙️ 
+                </h2>
+                <div class="steps-cards-wrapper flex justify-center">
+                    <div class="steps-card animated">
+                        <div class="steps-card__img-wrapper">
+                            <img src="assets/img/add-user-001.png" alt="step" class="steps-card__img">
+                        </div>
+                        <div class="steps-card-content flex">
+                            <div class="steps-card-number text-yellow">1.</div>
+                            <h4 class="card-heading">Regístrate en el sistema</h4>
+                        </div>
+                    </div>
+                    <img src="assets/img/arrow.svg" alt="arrow" class="steps__arrow-img">
+                    <div class="steps-card animated">
+                        <div class="steps-card__img-wrapper">
+                            <img src="assets/img/add-user-002.png" alt="step" class="steps-card__img">
+                        </div>
+                        <div class="steps-card-content flex">
+                            <div class="steps-card-number text-yellow">2.</div>
+                            <h4 class="card-heading">Hable con su gerente de cuenta</h4>
+                        </div>
+                    </div>
+                    <img src="assets/img/arrow.svg" alt="arrow" class="steps__arrow-img">
+                    <div class="steps-card animated">
+                        <div class="steps-card__img-wrapper">
+                            <img src="assets/img/add-user-003.png" alt="step" class="steps-card__img">
+                        </div>
+                        <div class="steps-card-content flex justify-center">
+                            <div class="steps-card-number text-yellow">3.</div>
+                            <h4 class="card-heading">Discutir una cantidad asequible para empezar</h4>
+                        </div>
+                    </div>
+                    <img src="assets/img/arrow.svg" alt="arrow" class="steps__arrow-img">
+                    <div class="steps-card animated">
+                        <div class="steps-card__img-wrapper">
+                            <img src="assets/img/add-user-004.png" alt="step" class="steps-card__img">
+                        </div>
+                        <div class="steps-card-content flex">
+                            <div class="steps-card-number text-yellow">4.</div>
+                            <h4 class="card-heading">Verifica tu identidad</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-calculator">
+            <div class="container">
+                <h2 class="section__heading animated">
+                    CALCULADORA DE GANANCIA 🤑
+                </h2>
+                <form action="javascript:void(0)" class="profit-calculator-wrapper animated">
+					<h3 class="invest-heading">tu inversión:</h3>
+					<div class="your-invest">
+						<input type="text" class="js-range-slider irs-hidden-input" name="my_range" value="150" tabindex="-1" readonly="" />
+					</div>
+					<div class="your-profit">
+						<label class="profit-label">Sus ganancias:</label>
+						<h3 id="calcResult"></h3>
+					</div>
+					<div class="range-btn">
+						<button class="btn" onclick="scrollToForm()">
+							obtener beneficios ahora
+						</button>
+					</div>
+				</form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container flex justify-between">
+                <img src="assets/img/logo.png" alt="logo" class="logo-img animated" onclick="scrollToTop()">
+                <div class="footer-links animated">
+                    <a href="javascript:void(0)" class="alterlink footer-link">Política de privacidad</a>
+                    <a href="javascript:void(0)" class="alterlink footer-link">Términos de Uso</a>
+                </div>
+                <p class="footer-copyright animated">
+                    Sistemacuántico © <span id="currentYear">2022</span> All Rights Reserved.
+                </p>
+            </div>
+        </footer>
+    </div>
+	<script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/ion.rangeSlider.min.js"></script>
+</body>
+</html>
